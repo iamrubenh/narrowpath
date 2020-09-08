@@ -3,8 +3,13 @@
 
 /* NAV AND BODY TAG */
 
-.body-tag {
-	font-family: 'Heebo', sans-serif;
+html {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+footer {
+
 }
 
 .nav-tag {
@@ -98,8 +103,8 @@
 }
 
 .button {
+	cursor: pointer;
   	display: inline-block;
-  	font-weight: 400;
   	color: #fff;
   	text-align: center;
   	vertical-align: middle;
@@ -110,7 +115,6 @@
   	background-color: transparent;
   	border: 1px solid transparent;
   	padding: 20px 40px;
-  	font-size: 1rem;
   	line-height: 1.5;
   	border-radius: 5rem;
   	border: 2px solid #00578a;
