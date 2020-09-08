@@ -1,0 +1,149 @@
+/* Style 
+*/
+
+/* NAV AND BODY TAG */
+
+.body-tag {
+	font-family: 'Heebo', sans-serif;
+}
+
+.nav-tag {
+	background-color: #00578a;
+}
+/* END */
+
+
+.top-text {
+	color: #000000;
+}
+
+.line-text {
+	color: #000000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.line-text:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.color-text {
+	color: #000000;
+	text-decoration: none;
+	background: transparent;
+}
+
+.color-text:hover {
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.p-text {
+	color:#000000;
+}
+
+.h1-tag {
+	color:#000000;
+} 
+
+.container-tag {
+	color: #000000;
+	padding-top: 55px;
+}
+
+.hero {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+}
+
+.hero-content {
+	border-radius: 1rem;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: block;
+    position: relative;
+}
+
+.hero-title {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.hero-sub-title {
+	font-size: 1.5rem;
+	color: rgb(255, 255, 255, 1);
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.button {
+  	display: inline-block;
+  	font-weight: 400;
+  	color: #fff;
+  	text-align: center;
+  	vertical-align: middle;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+  	background-color: transparent;
+  	border: 1px solid transparent;
+  	padding: 20px 40px;
+  	font-size: 1rem;
+  	line-height: 1.5;
+  	border-radius: 5rem;
+  	border: 2px solid #00578a;
+  	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button:hover {
+  	color: #000000;
+  	background-color: transparent;
+  	border: 2px solid #fff;
+  	text-decoration: none;
+}
+
+.button-primary {
+	background-color: #00578a;
+}
+
+.footer-tag {
+	color: #fff;
+	background-color: #00578a;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.footer-line {
+	border-top: 1px solid #fff;
+}
+
+@media screen and (max-width: 766px) {
+
+	.hero-content {
+		margin: 0 20px;
+		padding: 20px 10px;
+	}
+}
